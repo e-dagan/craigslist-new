@@ -1,0 +1,259 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* ----------For Mobile -------------- */
+
+@media only screen and (max-width: 480px){
+    body{
+        background-image: url("background1.png");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        /* background-color: whitesmoke; */
+
+    }
+    
+    /* Top Right Sell and profile image */
+    .top-right{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+        color: white;
+        list-style: none;
+        float: right;
+    }
+    
+    .menuItem {
+        display: inline-block;
+        margin: auto;
+        vertical-align: top;
+      }
+    
+    /* Categories */
+    .topics{
+        
+        color: white;
+        font-size: x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style: none;
+        float: center;
+        display: inline-block;
+        position: relative;
+        padding: 2%;
+        margin-top: 3vh;
+        overflow-wrap: normal;
+        
+    }
+    ul{
+        float: right;
+        display: flex;
+    }
+    
+    /* freeCodeCamp */
+    
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+    
+    #content-wrap {
+        padding-bottom: 2.5rem;   
+    }
+    
+    #blcok{
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        margin-bottom: 60vh;
+    }
+    #footer{   
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        width: 100%;
+        height: 2.5rem;
+        color: red;
+        bottom: 25vh;
+        justify-content: flex-end;
+    }
+
+    .footer-item{
+        display: flex;
+        width: 33vw;
+        height: 2.5rem;
+         
+    }
+    
+    
+    #footer-bar{
+        margin-top: 45vh;
+        width: 100%;
+        height: 30vh;
+        background: gray;
+        opacity: .2;
+        
+    }
+
+}
+
+
+
+ /* ----------For Tablet -------------- */
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    body{
+        background-image: url("background1.png");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        background-color: whitesmoke;
+    }
+    
+    /* Top Right Sell and profile image */
+    .top-right{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+        color: white;
+        list-style: none;
+        float: right;
+    }
+    
+    .menuItem {
+        display: inline-block;
+        margin: auto;
+        vertical-align: top;
+      }
+    
+    /* Categories */
+    .topics{
+        color: white;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style: none;
+        float: center;
+        display: inline-block;
+        padding: 2%;
+        margin-top: 10vh;
+        overflow-wrap: normal;
+        
+    }
+    ul{
+        float: right;
+        display: inline-block;
+    }
+    
+    /* freeCodeCamp */
+    
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+    
+    #content-wrap {
+        padding-bottom: 2.5rem;   
+    }
+    
+    #footer{   
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        color: red;
+        bottom: 25vh;
+        width: 100%;
+        height: 2.5rem;
+        justify-content: right;
+        justify-content: space-between;
+    }
+    
+    
+    #footer-bar{
+        width: 100%;
+        height: 30vh;
+        background: gray;
+        opacity: .2;
+        
+    }
+
+
+
+}
+
+
+/* ----------For Desktop -------------- */
+@media only screen and (min-width: 1024px){
+    body{
+        background-image: url("background1.png");
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;
+        background-color: whitesmoke;
+    }
+    
+    /* Top Right Sell and profile image */
+    .top-right{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+        color: white;
+        list-style: none;
+        float: right;
+    }
+    
+    .menuItem {
+        display: inline-block;
+        margin: auto;
+        vertical-align: top;
+      }
+    
+    /* Categories */
+    .topics{
+        color: white;
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style: none;
+        float: center;
+        display: inline-block;
+        padding: 2%;
+        margin-top: 55vh;
+        overflow-wrap: normal;
+        
+    }
+    ul{
+        float: right;
+        display: inline-block;
+    }
+    
+    /* freeCodeCamp */
+    
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+    
+    #content-wrap {
+        padding-bottom: 2.5rem;   
+    }
+    
+    #footer{   
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        color: red;
+        position: absolute;
+        bottom: 25vh;
+        width: 100%;
+        height: 2.5rem;
+        justify-content: right;
+    }
+    
+    .footer-item{
+        margin: 5px;
+    }
+    
+    #footer-bar{
+        width: 100%;
+        height: 30vh;
+        background: gray;
+        opacity: .2;
+        
+    }
+
+
+
+}
